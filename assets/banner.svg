@@ -8,5 +8,6 @@
 <text x="80" y="162" font-size="25" fill="#6b675e">Everything an agent entity needs, in 16 categories, each with</text>
 <text x="80" y="196" font-size="25" fill="#6b675e">a pick.</text>
 <rect x="80" y="236" width="169" height="34" rx="17" fill="#e4ecf4"/><text x="164" y="258" font-size="15" text-anchor="middle" fill="#1e3f60">Agent-native list</text>
-<rect x="261" y="236" width="54" height="34" rx="17" fill="#e4ecf4"/><text x="288" y="258" font-size="15" text-anchor="middle" fill="#1e3f60">MIT</text>
+<rect x="261" y="236" width="144" height="34" rx="17" fill="#e4ecf4"/><text x="333" y="258" font-size="15" text-anchor="middle" fill="#1e3f60">Persona: Atlas</text>
+<rect x="417" y="236" width="54" height="34" rx="17" fill="#e4ecf4"/><text x="444" y="258" font-size="15" text-anchor="middle" fill="#1e3f60">MIT</text>
 </svg>
