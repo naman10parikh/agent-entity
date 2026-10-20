@@ -1,0 +1,49 @@
+# Agent Entity Checklist
+
+> Everything an agent entity needs, in 16 categories, each with a pick. People read README.md; agents read checklist.json, the one source, from which README.md and PRODUCTS.md are rendered.
+
+An agent entity is anything built around an agent: an agent employee, an app, an open-source project or a company. The checklist asks the questions every one of them must answer, splits them into 102 components and 339 single decisions, and gives each decision the leading open-source option, the leading closed-source option and a default pick with its reason. Every product a pick names carries the ways an agent can use it on its own (hosted MCP, CLI, skill, API, local MCP, computer use), its price, adoption and openness, with a source for each verdict and the date it was read.
+
+## Start here
+
+- [AGENTS.md](AGENTS.md): how to read the list, change an entry and run the checks
+- [README.md](README.md): the checklist for people, by category
+- [checklist.json](checklist.json): every category, component, element, pick and product, as data
+- [PRODUCTS.md](PRODUCTS.md): every product a pick names, with each route's verdict and its proof
+
+## Categories
+
+- [Intelligence](README.md#1-intelligence-what-thinks-and-decides-for-it): What thinks and decides for it?
+- [Harness](README.md#2-harness-what-is-it-made-of): What is it made of?
+- [Reach](README.md#3-reach-how-does-it-reach-the-world-and-act-in-it-as-itself): How does it reach the world and act in it as itself?
+- [Surfaces](README.md#4-surfaces-how-do-people-and-other-agents-use-it): How do people and other agents use it?
+- [Software](README.md#5-software-what-are-its-doors-built-from): What are its doors built from?
+- [Network](README.md#6-network-how-does-it-work-with-other-agents): How does it work with other agents?
+- [Physical world](README.md#7-physical-world-what-does-it-make-keep-move-or-do-off-the-screen-and-through-whom): What does it make, keep, move or do off the screen, and through whom?
+- [Trust](README.md#8-trust-why-can-anyone-rely-on-it): Why can anyone rely on it?
+- [Operations](README.md#9-operations-how-is-it-kept-running): How is it kept running?
+- [Evolution](README.md#10-evolution-how-does-it-get-better-on-its-own): How does it get better on its own?
+- [Money](README.md#11-money-how-does-money-come-in-go-out-and-get-counted): How does money come in, go out and get counted?
+- [Growth](README.md#12-growth-how-do-people-find-it-and-why-do-they-stay): How do people find it, and why do they stay?
+- [People](README.md#13-people-who-stands-behind-it): Who stands behind it?
+- [Company](README.md#14-company-what-legal-body-does-it-live-in): What legal body does it live in?
+- [Funding](README.md#15-funding-who-pays-until-it-pays-for-itself): Who pays until it pays for itself?
+- [Compute](README.md#16-compute-what-does-it-run-on-below-the-waterline): What does it run on, below the waterline?
+
+## How to read it
+
+- [How to read a row](README.md#how-to-read-a-row): layers, categories, components, elements and priorities
+- [How an agent uses a pick](README.md#how-an-agent-uses-a-pick): the six routes, easiest first, and two properties
+- [How a product is scored](README.md#how-a-product-is-scored): the weights and the rules
+
+## The keeper
+
+- [identity/SOUL.md](identity/SOUL.md): Atlas, who keeps the list, and its boundaries
+- [identity/BRAND.md](identity/BRAND.md): why the name
+- [identity/HEARTBEAT.md](identity/HEARTBEAT.md): what is checked, and how often
+
+## Contributing
+
+- [CONTRIBUTING.md](CONTRIBUTING.md): how to change an entry
+- [scripts/render.py](scripts/render.py): validates the record and renders the views
+- [tests/test_render.py](tests/test_render.py): the tests CI runs

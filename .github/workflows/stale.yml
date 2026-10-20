@@ -1,0 +1,29 @@
+name: evidence-age
+
+on:
+  schedule:
+    - cron: "23 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: The record is valid and the views are current
+        run: python3 scripts/render.py --check
+      - name: List the products whose evidence is older than 90 days, for a person to read again
+        run: |
+          {
+            echo "## Evidence older than 90 days"
+            echo
+            echo '```'
+            python3 scripts/render.py --stale 90
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
