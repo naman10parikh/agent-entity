@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "Agent Entity Checklist: Everything an agent entity needs, in 16 categories, each with a pick."
+type: software
+authors:
+  - family-names: Parikh
+    given-names: Naman
+repository-code: "https://github.com/naman10parikh/agent-entity"
+license: MIT
+version: "0.1.0"
+abstract: "Everything an agent entity needs, in 16 categories, each with a pick."
+keywords: ["agent-native", "checklist", "agent-stack", "awesome-list"]
